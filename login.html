@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Trans Porto Company</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="login-container">
+    <!-- Lado esquerdo (login) -->
+    <div class="login-box">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <h3>Fazer login</h3>
+      <p>Acesse sua conta agora mesmo.</p>
+      <form id="loginForm">
+        <input type="text" id="usuarioLogin" placeholder="Usuário" required>
+        <input type="password" id="senhaLogin" placeholder="Senha" required>
+        <button type="submit" class="btn">ENTRAR</button>
+      </form>
+      <a href="#" class="forgot">esqueci minha senha</a>
+    </div>
+
+    <!-- Lado direito (cadastro) -->
+    <div class="register-box">
+      <h3>Crie sua conta</h3>
+      <form id="registerForm">
+        <input type="text" id="usuario" placeholder="Usuário" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <button type="submit" class="btn">CADASTRAR</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

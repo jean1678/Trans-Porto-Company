@@ -1,0 +1,126 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container principal */
+  .login-container {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Box do login */
+  .login-box {
+    background-color: #0d1b3d;
+    color: #fff;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 130px;
+  }
+  
+  .logo span {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .login-box h3 {
+    margin: 15px 0 10px;
+  }
+  
+  .login-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #0d1b3d;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .forgot {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .forgot:hover {
+    text-decoration: underline;
+  }
+  
+  /* Box do cadastro */
+  .register-box {
+    background-color: #ddd;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .register-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .register-box input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .register-box .btn {
+    background-color: #0d1b3d;
+    color: #fff;
+  }
+  
+  .register-box .btn:hover {
+    background-color: #142b57;
+  }
+  
